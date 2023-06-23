@@ -50,19 +50,19 @@ const Contact = () => {
             <h4>Whatsapp</h4>
             <h5>Direct message</h5>
             <a href="https://api.whatsapp.com/send?phone=+237653282022">
-              Whatsapp me
+              WHATSAPP me
             </a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="name" placeholder="full name" required />
-          <input type="email" name="email" placeholder="your email" required />
+          <input type="text" name="name" placeholder="FULL NAME" required />
+          <input type="email" name="email" placeholder="ENTER YOUR EMAIL" required />
           <textarea
             name="message"
             id="message"
             cols="30"
             rows="10"
-            placeholder="your message"
+            placeholder="type your message here"
             required
           ></textarea>
           <button type="submit" className="btn btn-primary">

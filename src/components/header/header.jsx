@@ -7,8 +7,8 @@ const Header = () => {
     return (
         <header>
             <div className="container header__container">
-                <h5>Hello I'm</h5>
-                <h1>NGOBA STEVE JONES NTONG</h1>
+                <h1>STEVE'S PORTFOLIO DESIGN</h1>
+                
                 <h5 className="text-light">Computer Engineering Student</h5>
                 <CTA />
                 <HeaderSocial />
@@ -16,7 +16,7 @@ const Header = () => {
                     <img src={ME} alt ="me"/>
                 </div>
                 <div>
-                    <a href="#contact" className='scroll_down'>Scroll Down</a>
+                    <a href="#contact" className='scroll_down'>SCROLL DOWN</a>
                 </div>
             </div>
         </header>
